@@ -9,14 +9,13 @@ const spanUserName = document.querySelector('.user-name');
 
 const provider = new firebase.auth.GoogleAuthProvider();
 const config = {
-  apiKey: 'AIzaSyCWQRoCe9dJRS6NTRL2_aCisnHFxqBwaVs',
-  authDomain: 'piskel-clone-7c6af.firebaseapp.com',
-  databaseURL: 'https://piskel-clone-7c6af.firebaseio.com',
-  projectId: 'piskel-clone-7c6af',
-  storageBucket: 'piskel-clone-7c6af.appspot.com',
-  messagingSenderId: '354420529727',
-  appId: '1:354420529727:web:35759ed1321738c65d368a',
-  measurementId: 'G-R9C5JVKE9V',
+  apiKey: "AIzaSyC8z_9MSKoMCZq_WnSMQu5lgMrLUUcdMjw",
+  authDomain: "simple-piskel-clone-app.firebaseapp.com",
+  databaseURL: "https://simple-piskel-clone-app.firebaseio.com",
+  projectId: "simple-piskel-clone-app",
+  storageBucket: "simple-piskel-clone-app.appspot.com",
+  messagingSenderId: "67516399185",
+  appId: "1:67516399185:web:b8dbea540f66f7a5018270",
 };
 
 firebase.initializeApp(config);
