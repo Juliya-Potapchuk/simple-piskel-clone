@@ -1,0 +1,40 @@
+.tools-panel{
+  border: 2px solid white;
+  width: 73px;
+  height: 510px;
+}
+
+.tools-list {
+  border: 2px solid gray;
+}
+
+.tools-item {
+  list-style: none;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  cursor: pointer;
+  margin: 9px auto;
+  background: url('../../../assets/images/SPOILER_icons.png') no-repeat;
+}
+
+.pen-size-container .tools-item-active {
+  border: 2px solid yellow;
+}
+
+.tools-list .tools-item-active {
+  border: 2px solid yellow;
+}
+
+.pencil{
+  background-position: -184px -92px;
+}
+
+.bucket{
+  background-position: -227px -92px;
+}
+
+.eraser{
+  background-position: -46px -227px;
+}

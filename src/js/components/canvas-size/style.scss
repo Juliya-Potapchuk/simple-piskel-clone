@@ -1,0 +1,17 @@
+.container-size-canvas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+}
+
+.button-size-canvas{
+  border: none;
+  height: 38px;
+  width: 108px;
+}
+
+.button-size-canvas:hover, .button-size-canvas-act {
+  background: yellow;
+  border: none;
+}

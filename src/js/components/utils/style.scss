@@ -1,0 +1,88 @@
+.wrapper-canvas {
+  background: grey;
+  width: 532px;
+  height: 532px;
+}
+
+.canvas {
+  background-image: url('../../../assets/images/pattern.jpg');
+  margin: 10px;
+  width: 512px;
+  height: 512px;
+  background-color: black;
+  image-rendering: pixelated;
+}
+
+.landing-page {
+  padding-left: 8px;
+  flex-direction: column;
+  background-color: #0e0e0e;
+  width: 100%;
+}
+.section {
+display: flex;
+flex-direction: column;
+width: 1200px;
+border: 2px solid #b9971d;
+margin-bottom: 55px;
+padding-bottom: 33px;
+}
+
+.wrapper-img-land-page {
+justify-content: space-around;
+display: flex;
+}
+
+.h2 {
+text-decoration: underline;
+color: #e4e40e;
+font-size: 41px;
+line-height: 95px;
+text-align: center;
+}
+
+.functionality-text, .about-author-text {
+color: white;
+font-size: 27px;
+line-height: 38px;
+padding-bottom: 17px;
+margin-left: 35px;
+}
+
+.about-author-link {
+color: yellow;
+}
+.wrapper-img-text-author {
+display: flex;
+justify-content: space-between;
+}
+.my-photo-img {
+border-radius: 18%;
+border: 2px solid #403f3f;
+margin: 0px 9px 0 37px;
+}
+
+
+.about-author-text {
+margin-top: 32px;
+}
+
+.button-create-sprite {
+color: black;
+width: 113px;
+height: 28px;
+font-size: 16px;
+font-weight: bolder;
+border: none;
+margin: 6px 21px 0px 0;
+background-color: #ffe001;
+}
+
+.button-create-sprite:hover {
+background-color: yellow;
+}
+
+.cursor {
+cursor: pointer;
+}
+
